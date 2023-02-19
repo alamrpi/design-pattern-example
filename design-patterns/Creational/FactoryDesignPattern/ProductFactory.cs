@@ -1,5 +1,4 @@
-﻿
-namespace design_patterns.FactoryDesignPattern
+﻿namespace design_patterns.Creational.FactoryDesignPattern
 {
     public class ProductFactory
     {

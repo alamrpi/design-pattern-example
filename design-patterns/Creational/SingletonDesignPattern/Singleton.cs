@@ -1,4 +1,4 @@
-﻿namespace design_patterns.SingletonDesignPattern
+﻿namespace design_patterns.Creational.SingletonDesignPattern
 {
     /// <summary>
     /// Only for Unit Test
@@ -23,10 +23,10 @@
             //        _instance = new Singleton();   
             //}
 
-        //Latest version
+            //Latest version
             lock (_obj)
                 _instance ??= new Singleton();
-            
+
             return _instance;
         }
 

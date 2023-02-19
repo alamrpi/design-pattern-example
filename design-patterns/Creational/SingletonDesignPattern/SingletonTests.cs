@@ -1,7 +1,7 @@
 ﻿using Moq;
 using Xunit;
 
-namespace design_patterns.SingletonDesignPattern
+namespace design_patterns.Creational.SingletonDesignPattern
 {
     public class SingletonTests
     {
